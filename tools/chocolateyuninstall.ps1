@@ -4,7 +4,7 @@ $packageArgs = @{
   softwareName  = 'betaflight-configurator*'
   fileType      = 'exe'
   file          = 'unins000.exe'
-  silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+  silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP"
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
