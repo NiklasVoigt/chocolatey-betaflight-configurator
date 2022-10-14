@@ -27,7 +27,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>10.8.0</version>
-    <packageSourceUrl>https://github.com/betaflight/betaflight-configurator</packageSourceUrl>
+    <packageSourceUrl>https://github.com/NiklasVoigt/chocolatey-betaflight-configurator</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>NiklasVoigt</owners>
     <!-- ============================== -->
@@ -37,13 +37,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Betaflight Configurator Contributors</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://betaflight.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/betaflight/betaflight-configurator/master/assets/linux/icon/bf_icon_128.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/NiklasVoigt/chocolatey-betaflight-configurator@main/icons/betaflight-configurator.png</iconUrl>
     <copyright>© 2022 Betaflight Configurator Contributors</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/betaflight</projectSourceUrl>
-    <docsUrl>https://betaflight.com/</docsUrl>
+    <projectSourceUrl>https://github.com/betaflight/betaflight-configurator</projectSourceUrl>
+    <docsUrl>https://betaflight.de/docs/knowledge-base/hintergrundwissen/betaflight-configurator/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/betaflight/betaflight-configurator/issues</bugTrackerUrl>
     <tags>betaflight betaflight-configurator</tags>
